@@ -26,6 +26,7 @@ export const BUSINESS_CONFIG = {
       price: 18.00,
       unit: "dozen",
       description: "Colorful cereal-infused cookies",
+      ingredients: null, // Add ingredients here, e.g., "flour, sugar, butter, Froot Loops cereal, eggs"
       available: true
     },
     {
@@ -34,6 +35,7 @@ export const BUSINESS_CONFIG = {
       price: 19.00,
       unit: "dozen",
       description: "Matcha green tea with Oreo chunks",
+      ingredients: null,
       available: true
     },
     {
@@ -42,6 +44,7 @@ export const BUSINESS_CONFIG = {
       price: 18.00,
       unit: "dozen",
       description: "Biscoff cookie butter delight",
+      ingredients: null,
       available: true
     },
     {
@@ -50,6 +53,7 @@ export const BUSINESS_CONFIG = {
       price: 16.00,
       unit: "dozen",
       description: "Crispy corn flake cookies",
+      ingredients: null,
       available: true
     },
     {
@@ -58,6 +62,7 @@ export const BUSINESS_CONFIG = {
       price: 17.00,
       unit: "dozen",
       description: "Savory cheddar cheese cookies",
+      ingredients: null,
       available: true
     },
     {
@@ -66,6 +71,7 @@ export const BUSINESS_CONFIG = {
       price: 19.00,
       unit: "dozen",
       description: "Graham, chocolate, and marshmallow",
+      ingredients: null,
       available: true
     },
     {
@@ -74,6 +80,7 @@ export const BUSINESS_CONFIG = {
       price: 20.00,
       unit: "dozen",
       description: "Premium Dubai-style chewy cookies",
+      ingredients: null,
       available: true
     }
   ],
