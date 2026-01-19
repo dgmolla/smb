@@ -9,12 +9,12 @@ export const BUSINESS_CONFIG = {
   // ==========================================
   // BUSINESS IDENTITY
   // ==========================================
-  businessName: "Sweet Delights Bakery",
-  tagline: "Fresh-baked cookies delivered to your door",
+  businessName: "Ewe Cookies",
+  tagline: "We bake chewy cookies with a gooey twist ❤️",
 
-  // Brand color (used throughout the UI)
-  // Change this single value to white-label the entire app
-  brandColor: "#f5576c",
+  // Brand colors (red and white theme)
+  brandColor: "#e63946",
+  brandColorLight: "#fff",
 
   // ==========================================
   // PRODUCTS & PRICING
@@ -156,8 +156,9 @@ export const BUSINESS_CONFIG = {
   // CONTACT INFO
   // ==========================================
   contact: {
-    email: "orders@sweetdelights.com",
-    phone: "(555) 123-4567"
+    email: "ewe.cookies@gmail.com",
+    instagram: "@ewe_cookies",
+    location: "Los Angeles, CA"
   }
 };
 

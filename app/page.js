@@ -84,7 +84,7 @@ export default function Home() {
       <div className={styles.container}>
         {/* Header */}
         <header className={styles.header}>
-          <span className={styles.headerIcon}>🍪</span>
+          <div className={styles.headerIcon}>❤️</div>
           <div className={styles.headerText}>
             <h1>{BUSINESS_CONFIG.businessName}</h1>
             <p>{BUSINESS_CONFIG.tagline}</p>
@@ -101,7 +101,7 @@ export default function Home() {
               }`}
             >
               <div className={styles.avatar}>
-                {msg.role === "user" ? "👤" : "🤖"}
+                {msg.role === "user" ? "👤" : "❤️"}
               </div>
               <div className={styles.content}>
                 {msg.content.split("\n").map((line, j) => (
@@ -122,7 +122,7 @@ export default function Home() {
 
           {isLoading && (
             <div className={`${styles.message} ${styles.botMessage}`}>
-              <div className={styles.avatar}>🤖</div>
+              <div className={styles.avatar}>❤️</div>
               <div className={styles.typing}>
                 <span></span>
                 <span></span>
