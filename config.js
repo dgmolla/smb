@@ -21,69 +21,84 @@ export const BUSINESS_CONFIG = {
   // ==========================================
   products: [
     {
-      id: "chocolate-chip",
-      name: "Chocolate Chip",
+      id: "froot-loops",
+      name: "Froot Loops",
       price: 18.00,
       unit: "dozen",
-      description: "Classic cookies with premium chocolate chunks",
+      description: "Colorful cereal-infused cookies",
       available: true
     },
     {
-      id: "oatmeal-raisin",
-      name: "Oatmeal Raisin",
-      price: 16.00,
-      unit: "dozen",
-      description: "Hearty oats with plump raisins",
-      available: true
-    },
-    {
-      id: "snickerdoodle",
-      name: "Snickerdoodle",
-      price: 15.00,
-      unit: "dozen",
-      description: "Cinnamon-sugar perfection",
-      available: true
-    },
-    {
-      id: "peanut-butter",
-      name: "Peanut Butter",
-      price: 17.00,
-      unit: "dozen",
-      description: "Rich and creamy peanut butter cookies",
-      available: true
-    },
-    {
-      id: "sugar-cookie",
-      name: "Sugar Cookie",
-      price: 14.00,
-      unit: "dozen",
-      description: "Classic buttery sugar cookies",
-      available: true
-    },
-    {
-      id: "double-chocolate",
-      name: "Double Chocolate",
+      id: "matcha-oreo",
+      name: "Matcha/Oreo",
       price: 19.00,
       unit: "dozen",
-      description: "For serious chocolate lovers",
+      description: "Matcha green tea with Oreo chunks",
+      available: true
+    },
+    {
+      id: "lotus",
+      name: "Lotus",
+      price: 18.00,
+      unit: "dozen",
+      description: "Biscoff cookie butter delight",
+      available: true
+    },
+    {
+      id: "corn-flakes",
+      name: "Corn Flakes",
+      price: 16.00,
+      unit: "dozen",
+      description: "Crispy corn flake cookies",
+      available: true
+    },
+    {
+      id: "cheddar-cheese",
+      name: "Cheddar Cheese",
+      price: 17.00,
+      unit: "dozen",
+      description: "Savory cheddar cheese cookies",
+      available: true
+    },
+    {
+      id: "smore",
+      name: "S'more",
+      price: 19.00,
+      unit: "dozen",
+      description: "Graham, chocolate, and marshmallow",
+      available: true
+    },
+    {
+      id: "dubai-chewy",
+      name: "Dubai Chewy",
+      price: 20.00,
+      unit: "dozen",
+      description: "Premium Dubai-style chewy cookies",
       available: true
     }
   ],
 
   // Flavor aliases for natural language understanding
   flavorAliases: {
-    "chocolate": "Chocolate Chip",
-    "choc chip": "Chocolate Chip",
-    "cc": "Chocolate Chip",
-    "oatmeal": "Oatmeal Raisin",
-    "oat": "Oatmeal Raisin",
-    "snicker": "Snickerdoodle",
-    "cinnamon": "Snickerdoodle",
-    "pb": "Peanut Butter",
-    "peanut": "Peanut Butter",
-    "sugar": "Sugar Cookie",
-    "plain": "Sugar Cookie",
-    "double choc": "Double Chocolate"
+    "froot loop": "Froot Loops",
+    "fruit loops": "Froot Loops",
+    "fruity": "Froot Loops",
+    "matcha": "Matcha/Oreo",
+    "oreo": "Matcha/Oreo",
+    "green tea": "Matcha/Oreo",
+    "biscoff": "Lotus",
+    "cookie butter": "Lotus",
+    "corn flake": "Corn Flakes",
+    "cornflake": "Corn Flakes",
+    "cheddar": "Cheddar Cheese",
+    "cheese": "Cheddar Cheese",
+    "savory": "Cheddar Cheese",
+    "smore": "S'more",
+    "s'mores": "S'more",
+    "smores": "S'more",
+    "marshmallow": "S'more",
+    "dubai": "Dubai Chewy",
+    "chewy": "Dubai Chewy"
   },
 
   // ==========================================
