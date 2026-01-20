@@ -105,6 +105,9 @@ export default function Home() {
                 <button onClick={() => handleQuickAction("What are your hours?")}>
                   Hours & pickup info
                 </button>
+                <button onClick={() => { setShowWelcome(false); inputRef.current?.focus(); }}>
+                  Ask a question
+                </button>
               </div>
             </div>
           )}
