@@ -91,7 +91,7 @@ export default function Home() {
           {showWelcome && messages.length === 0 && (
             <div className={styles.welcome}>
               <div className={styles.welcomeIcon}>🍪</div>
-              <h2>Hey there!</h2>
+              <h2>Welcome to {BUSINESS_CONFIG.businessName}!</h2>
               <p>{BUSINESS_CONFIG.tagline}</p>
               <p className={styles.welcomeSub}>Tap below to get started</p>
 
